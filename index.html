@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    table,th,td{
+        border:0.5px solid black;
+    }
+</style>
 <body>
     <h1>Website menu</h1>
     <ul>
@@ -26,5 +31,38 @@
     </ol>
     <p>Testimonials</p>
     <img src="https://www.slideteam.net/media/catalog/product/cache/330x186/c/l/client_testimonials_software_company_profile_ppt_download_slide01.jpg" alt="work">
+
+    <h1 style ="color: blue;">Part time-08 students</h1>
+
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Phone-No</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Muriithi Muhia</td>
+            <td>0712345678</td>
+            <td>muhia@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mthoni Mwangi</td>
+            <td>0712345679</td>
+            <td>mwangi@gmail.com</td>
+        </tr>
+    </table>
+    <h4>Contact us form</h4>
+    <form action="">
+        <label for="">Full name</label>
+        <input type="text" name="fullname" placeholder="Mwaniki">
+        <label for="">Email</label>
+        <input type="text" name="email" placeholder="abc@gmail.com">
+        <label for="">Phone No</label>
+        <input type="numeric" name="Phone-No" placeholder="0710000000" minlength="10" maxlength="12">
+        <input type="submit" value="send">
+    </form>
 </body>
 </html>
